@@ -1,0 +1,218 @@
+main {
+    margin-left: 320px;
+}
+
+main ul, main li {
+  margin-bottom: 10px;
+  width: 1000px;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    font-size: 70pt;
+    margin-left: 300px;
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    font-size: 25pt;
+    background-color: #a3ff15;
+    display: table;
+    padding: 10px;
+    margin-left: -10px;
+}
+
+h3 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    font-size: 20pt;
+    margin-bottom: -5px;
+    color: #033949;
+}
+
+h4 {
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px;
+  font-size: 15pt;
+  margin-bottom: -5px;
+  color: #033949;
+}
+
+ul, ol {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-left: 20px;
+    width: 1000px;
+}
+
+b {
+  font-weight: 400;
+  color: #033949;
+}
+
+.containertitle {
+    background-color:#033949;
+    height: 350px;
+    width: 1000px;
+    position: relative;
+    margin-top: -10px;
+    margin-left: -10px;
+  }
+
+  .containerimage {
+    background-image: url('../img/design2_image1.jpg');
+    background-position: top;
+    background-size: cover;
+    height: 350px;
+    width: 900px;
+    margin-top: -350px;
+    margin-right: -50px;
+    float:right;
+  }
+
+.nav-title {
+    position: absolute;
+    top: 8px;
+    margin-left: 30px;
+    color: white;
+  }
+
+.logo {
+    float: left;
+    margin-left: 90px;
+    margin-top: -250px;
+    position: relative;
+  }
+
+  .nav {
+    display: inline-block;
+    width: 100%;
+    background-color: #a3ff15;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding: 20px;
+    text-align: center;
+    margin-left: -10px;
+    margin-top: 0px;
+    color: #033949;
+    text-decoration: none;
+  }
+
+  .nav li {
+    display: inline-block;
+    font-size: 16px;
+    list-style-type: none;
+    margin-right: 20px;
+    text-transform: uppercase;
+  }
+  
+  li a {
+    text-decoration: none;
+    color: #033949;
+  }
+
+  li a:visited{
+    color: #033949;
+  }
+
+  li a:hover {
+    color: #00ba4e;
+  }
+
+  footer {
+    height: 50px;
+  }
+
+  .infotable {
+    width: 700px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    border-collapse: collapse;
+  }
+
+  .infotable th {
+    background-color: #033949;
+    color:white;
+    font-weight: 400;
+    padding: 10px;
+  }
+
+  .infotable td {
+    text-align: center;
+    padding: 10px;
+  }
+
+  th.september, th.times {
+    width: 15%;
+  }
+
+  .tablegray {
+    background-color: #cfff84;
+
+  }
+
+  .form_bg {
+    height: 100%;
+    width: 80vh;
+    background-color: #f2f2f2;
+    border-left: solid #a3ff15 10px;
+    border-bottom: solid #a3ff15 10px;
+    border-radius: 15px;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+  }
+
+  input[type=text] {
+    border: none;
+    border-bottom: 2px solid #033949;
+    background-color: #f2f2f2;
+    margin-bottom: 10px;
+  }
+
+  input[type=radio] {
+    margin-bottom: 10px;
+  }
+
+  input[type=date] {
+    margin-bottom: 10px;
+  }
+
+  .form_text {
+    padding-left: 20px;
+  }
+
+  input[type=button], input[type=submit], input[type=reset] {
+    background-color: #033949;
+    border: none;
+    color: white;
+    padding: 16px 25px;
+    text-decoration: none;
+    margin: 4px 2px;
+    border-radius: 15px;
+  }
+
+.parraform>p {
+  width: 90%;
+  text-align: justify;
+}
+
+.twocolumn_form {
+  width: 65vh;
+  display: flex;
+  direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+input [name=street_address] {
+  width: 65vh;
+}

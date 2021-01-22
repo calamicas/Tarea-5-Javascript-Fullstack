@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="estilos/nysl.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,300;0,500;0,900;1,300;1,500;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/noun_soccer_1839247.svg" />
+</head>
+
+<body>
+    <header>
+        <div class="containertitle">
+            <div class="nav-title">
+                <h1>Northside Youth <br>Soccer League</h1>
+            </div>
+        </div>
+        <div class="containerimage"></div>
+        <img class="logo" src="img/nysl_logo.png" alt="Logo" width="150px" height="150px">
+    </header>
+    <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About NYSL</a></li>
+        <li><a href="rules.html">Rules</a></li>
+        <li><a href="game_info.html">Game Information</a></li>
+        <li><a href="registration.html" style="color: #00ba4e;">Registration Form</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <main>
+        <h2>Registration Form</h2>
+
+        <div class="form_bg">
+            <form action="show_data.html">
+                <div class="twocolumn_form">
+                    <label for="pyname">Player’s First Name:</label>
+                    <input type="text" id="pyname" value="" name="first_name" required>
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" id="lastname" value="" name="last name" required>
+                </div>
+                <label for="pyaddress">Street Address:</label>
+                <input size=80 type="text" id="pyaddress" value="" name="street_address" required><br>
+                <div class="twocolumn_form">
+                    <label for="pycity">City</label>
+                    <input type="text" id="pycity" value="" name="city" required>
+                    <label for="zipcode">Zip Code:</label>
+                    <input type="text" id="zipcode" value="" name="zip_code" required><br>
+                </div>
+                <label for="birthdate">Birth Date:</label>
+                <input type="date" id="birthdate" value="" name="birth_date" required><br>
+                <label for="gender">Gender:</label>
+                <input type="radio" id="gender" value="" name="gender" required>Female
+                <input type="radio" id="gender" value="" name="gender" required>Male
+                <input type="radio" id="gender" value="" name="gender" required>Other<br>
+                <label for="grade">Grade:</label>
+                <input type="radio" id="grade" value="" name="grade" required>Pre-School
+                <input type="radio" id="grade" value="" name="grade" required>1st
+                <input type="radio" id="grade" value="" name="grade" required>2nd
+                <input type="radio" id="grade" value="" name="grade" required>3rd
+                <input type="radio" id="grade" value="" name="grade" required>4th
+                <input type="radio" id="grade" value="" name="grade" required>5th<br>
+                <label for="school">
+                    <h4>Which elementary school do you live near?<br>Closest School:</h4><br>
+                </label>
+                <input type="checkbox" id="school" value="" name="school">AJ Katzenmaier
+                <input type="checkbox" id="school" value="" name="school">Greenbay
+                <input type="checkbox" id="school" value="" name="school">Howard A Yeager<br>
+                <input type="checkbox" id="school" value="" name="school">Marjorie P Hart
+                <input type="checkbox" id="school" value="" name="school">North Elementary
+                <input type="checkbox" id="school" value="" name="school">South Elementary<br>
+                <label for="position">
+                    <h4>What position(s) do you normally play?<br>(check all that apply)</h4><br>
+                </label>
+                <input type="checkbox" id="position" value="" name="position">Forward
+                <input type="checkbox" id="position" value="" name="position">Defense
+                <input type="checkbox" id="position" value="" name="position">Midfield
+                <input type="checkbox" id="position" value="" name="position">Goalkeeper<br>
+                <label for="school">
+                    <h4>Uniform Size:</h4><br>
+                </label>
+                <input type="checkbox" id="uniform" value="" name="uniform">Youth Small
+                <input type="checkbox" id="uniform" value="" name="uniform">Youth Medium
+                <input type="checkbox" id="uniform" value="" name="uniform">Youth Large<br>
+                <input type="checkbox" id="uniform" value="" name="uniform">Small
+                <input type="checkbox" id="uniform" value="" name="uniform">Medium
+                <input type="checkbox" id="uniform" value="" name="uniform">Large
+                <input type="checkbox" id="uniform" value="" name="uniform">Extra-Large<br>
+
+                <h4>Permission to Play</h4>
+                <div class="parraform">
+                    <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by
+                        all the rules of the Northside Youth Soccer League (NYSL). In recognizing the possibility of
+                        physical
+                        injury associated with soccer and in consideration for the “League” accepting the registrant for
+                        its
+                        soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL,
+                        their
+                        employees and associated personnel and volunteers,including the facilities used for practices
+                        and
+                        games, against any claim by or on behalf of the registrant as a result of the registrant’s
+                        participation in the programand/orbeing transported to or from NYSL sponsored activities, which
+                        transportation.
+                        <br>By signing below, I herebyagree andauthorizethe above. In addition, by signing below, I also
+                        acknowledge that I have read the cancellation policy and agree to its terms.
+                    </p>
+                </div>
+
+                <div class="twocolumn_form">
+                    <label for="signature">Parent/Guardian Signature:</label>
+                    <input type="text" id="signature" value="" name="signature" required>
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" value="" name="date" required><br>
+                </div>
+                <input type="submit">
+            </form>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
